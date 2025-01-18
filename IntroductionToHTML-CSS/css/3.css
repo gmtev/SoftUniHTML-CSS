@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.highlighted {
+    color: blue;
+}
+
+.special-content {
+    background-color: orange;
+
+}
+.important-one{
+    color:aqua;
+}
+.important {
+    font-style: italic;
+    color: red;
+}
+
+.fancy-link {
+    color: blue;
+    text-decoration: underline;
+}
+
+.fancy-link.external {
+    color: orange;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+
+
+.multiple-classes {
+    color: blue;
+}

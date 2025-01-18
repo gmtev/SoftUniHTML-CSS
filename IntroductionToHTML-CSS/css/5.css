@@ -1,0 +1,26 @@
+li {
+    font-weight: bold;
+    list-style-type: none;
+    margin: 10px;
+}
+.red {
+    color: lightcoral;
+}
+p {
+    color: darkolivegreen;
+}
+.blue {
+    color: darkblue;
+}
+.green {
+    color: darkgreen;
+}
+h2 + p {
+    color: blue;
+}
+h2 + p + p {
+    color: blue;
+}
+.highlighted + article > p {
+    background-color: lightcoral;
+}

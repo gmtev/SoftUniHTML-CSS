@@ -1,0 +1,21 @@
+.service {
+  background-color: rgb(80, 211, 226, 0.5);  
+}
+li {
+    list-style-type: disc;
+
+}
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+.home {
+    font-weight: bold;
+}
+.services{
+    font-style: italic;
+}
+img {
+    border: 12px solid red;
+    width: fit-content;
+}
