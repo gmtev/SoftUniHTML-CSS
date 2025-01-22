@@ -1,0 +1,57 @@
+.container {
+    border: 1px solid #ccc;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    color: #333;
+    padding-left: 2.4rem;
+}
+
+html {
+    font: 16px/1.5 Lato, sans-serif;
+}
+
+p {
+    color: #333;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    margin: 0 2em;
+}
+
+footer {
+    color: #333;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    margin: 1.5em 2em;
+    font-style: italic;
+}
+
+p + p {
+    margin-top: 1.5em;
+}
+
+p + .title {
+    margin-top: 3em;
+}
+body {
+    border: 1px solid #eee;
+    padding: 2em 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}

@@ -1,0 +1,64 @@
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+p, ul, ol {
+    padding-bottom: 1.5rem;
+}
+
+ul, ol {
+    padding-left: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+    margin-top: 1em;
+    margin-bottom: 0.5;
+    font-family: Georgia, serif;
+}
+
+blockquote {
+    padding-left: 1.5rem;
+    border: 5px solid rgb(0, 0, 0, 0.4);
+    margin: 0 2em;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
+blockquote p:last-child {
+    padding-bottom: 0;
+}
+
+blockquote .author {
+    text-align: right;
+}
+
+table {
+    border: 1px solid #ccc;
+    margin: 1.5rem 0;
+    /* border-spacing: 1px; not needed since border-collapse */
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th {
+    text-align: left;
+    background: #ddd;
+}
+
+table td {
+    padding: 1em 1.2em;
+    border: 1px solid #ccc;
+}
+
+table th {
+    background: #ddd;
+}
+
+table tbody tr:nth-child(odd) td {
+    background: #eee;
+}
+
+.author {
+    padding-right: 2em;
+}
