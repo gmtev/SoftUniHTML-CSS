@@ -1,0 +1,50 @@
+html {
+    font: 16px/1.5 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+body, input {
+    font: inherit;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 2em;
+    max-width: 800px;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+summary {
+    font-weight: bold;
+    margin: 1em;
+}
+
+details {
+    border: 1px solid rgb(0, 0, 0, 0.1);
+}
+
+p {
+    padding: 0.5em 0.5em 1em 1em;
+}
+
+p:last-child{
+    padding: 0.5em 0.5em 2.5em 1em;
+}

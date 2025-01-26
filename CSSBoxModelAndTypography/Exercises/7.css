@@ -1,0 +1,27 @@
+.icon {
+    display: flex;
+    border-radius: 50%;
+    background-color: #ddd;
+    width: 4em;
+    aspect-ratio: 1/1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* display: block;
+    text-align: center;
+    place-content: center; */
+
+.container {
+    display: flex;
+    gap: 2em;
+}
+
+body {
+    padding-left: 2em;
+}
+
+i {
+    font-size: 2em;
+}

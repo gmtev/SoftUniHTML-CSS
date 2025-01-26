@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+}
+
+body, input {
+    font: inherit;
+    padding: 1em 2em;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+a, button {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    text-align: center;
+    padding: 1em;
+    border: 2px solid rgb(0, 0, 0, 0.1);
+    border-radius: 5%;
+    font: inherit;
+}
+
+button {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    gap: 1em;
+}
+
+h2 {
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.container a:first-child,
+.container a:last-child,
+.container button:last-child,
+.container button:first-child {
+    background-color: #ccc;
+}
+
+.container a:nth-child(2),
+.container button:nth-child(2) {
+    background-color: orange;
+}
+
+.container a:nth-child(3),
+.container button:nth-child(3) {
+    background-color: lightgoldenrodyellow;
+}
+
+.container button:last-child,
+.container a:last-child {
+   max-width: 6em;
+}

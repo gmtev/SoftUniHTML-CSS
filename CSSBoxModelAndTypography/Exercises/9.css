@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+}
+
+body, input {
+    font: inherit;
+}
+
+
+body {
+    background: #eee;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.banner {
+    background-image: url(image1.jpg);
+    min-height: 36vw;
+    padding: 9em 4em;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
+}
