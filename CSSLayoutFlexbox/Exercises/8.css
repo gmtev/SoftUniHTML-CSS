@@ -1,0 +1,84 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ html {
+    font: 12px/1.5 Verdana, sans-serif;
+ }
+
+ body { 
+    min-height: 100dvh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .keyboard {
+    background: #ddd;
+    border: 2px solid #ccc;
+    border-radius: 0.9em;
+    box-shadow: 0 0.3em 0 0 #bbb;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+ }
+
+ .keyboard .row {
+    display: flex;
+    gap: 1em;
+ }
+
+ .keyboard .key {
+    padding: 1em 1.4em;
+    /* border: 1px solid #ccc; */
+    border-radius: 0.3em;
+    background: #fff;
+    box-shadow: 0 0.2em 0 0 #bbb;
+    text-align: center;
+    position: relative;   
+    /* to create the effect of pressing a button, together with the active selector below */
+ }
+
+ .keyboard .key.special {
+    background: #eee;
+ }
+
+ .keyboard .key.grow {
+    flex: 1 1 auto;
+ }
+
+ .keyboard .key.special.right-shift {
+    flex: 1 1 auto;
+    text-align: center;
+ }
+
+ .keyboard .key:active{
+    top: 2px;
+    box-shadow: 0 0.5em 0 0 #bbb;
+ }
+
+ .keyboard .key.enter {
+    border-bottom-right-radius: 0;
+ }
+
+ .keyboard .key.enter::after {
+    content: '';
+    display: block;
+    width: 8em;
+    height: 4.4em;
+    position: absolute;
+    right: -1px;
+    top: 100%;
+    border: inherit;
+    border-top: 0;
+    border-radius: inherit;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background: inherit;
+    box-shadow: inherit;
+ }

@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+}
+
+body, input {
+    font: inherit;
+}
+
+
+body {
+    background: #ddd;
+    padding: 2em;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.container {
+    max-width: 120ch;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+    padding: 2em;
+}
+
+hr {
+    max-width: 10ch;
+    margin: 1em auto;
+    border: 1px solid #ddd;
+}
+
+main {
+    display: flex;
+    gap: 2em;
+    padding: 1em 2em;
+}
+
+header, footer {
+    text-align: center;
+}
+
+header p,
+footer p {
+    color: #616161;
+}
+
+header p {
+    font-style: italic;
+    max-width: 50ch;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 0.3em;
+}

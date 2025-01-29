@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+}
+
+body, input {
+    font: inherit;
+    display: flex;
+}
+
+
+body {
+    background: #ddd;
+    padding: 2em;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.container {
+    margin: 4em 2em;
+    background: #fff;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+    padding: 2em;
+}
