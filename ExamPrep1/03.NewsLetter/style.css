@@ -1,0 +1,306 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font: 14px/1.5 'Open Sans', sans-serif;
+}
+
+body, input, textarea, button, table, form {
+    font: inherit
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+p, ul, ol {
+    padding-bottom: 1.5em;
+}
+
+ul, ol {
+    padding-left: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+/* preps */
+
+body {
+    background: #c1bbbb;
+}
+
+.inner {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.siteheader{
+    margin-bottom: 2em;
+}
+
+.siteheader .inner {
+    display: flex;
+    padding: 4em 0 2em;
+    align-items: center;
+    
+}
+
+.siteheader .inner nav {
+    margin-left: auto;
+}
+
+.siteheader .inner nav ul {
+    display: flex;
+    gap: 2em;
+    padding-bottom: 0;
+}
+
+.siteheader .inner nav li,
+.siteheader .inner nav a {
+    display: block;
+}
+
+.siteheader .inner nav a {
+    color: #696969;
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.siteheader .inner nav .active {
+    color:#fff;
+    background: #444;
+}
+
+.siteheader .inner .title {
+    font-size: 3em;
+    font-family: 'Oleo Script', sans-serif;
+    background: #57a390;
+    border-radius: 0.3rem;
+    color: #fff;
+    line-height: 1;
+    padding: 0.5rem 1rem;
+}
+.siteheader .inner .titledesc {
+    font-weight: bold;
+}
+
+.tocenter {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+
+.banner {
+    margin-bottom: 4em;
+}
+
+.banner .inner {
+    background: #fff;
+    border-radius: 0.5em;
+    padding: 4em;
+    display: flex;
+    gap: 4em;
+
+}
+
+.banner .inner .text {
+    flex: 0 1 60%;
+}
+
+.banner .inner .text h2 {
+    font-size: 5em;
+    line-height: 1;
+}
+
+.banner .inner .text p {
+    font-size: 4em;
+    font-weight: 100;
+    line-height: 1;
+    padding: 0;
+}
+
+.banner .inner .btns {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.banner .inner .btns a {
+    display: flex;
+    justify-content: space-between;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1;
+    background: #f2f2f2;
+    border-radius: 0.4rem;
+    text-decoration: none;
+    color: #444;
+    padding: 2rem 2.5rem;
+
+}
+
+.banner .inner .btns .btnprim {
+    color: #f2f2f2;
+    background: #0090c5;
+}
+
+.cards {
+    margin-bottom: 4em;
+}
+
+.cards .inner {
+    display: flex;
+    gap: 2em;
+}
+
+img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+.cards .inner .card {
+
+    overflow: hidden;
+    border-radius: 0.5em;
+    background: #fff;
+}
+
+.cards .inner .card .card-header {
+    padding: 3em 2.5em 0;
+}
+.cards .inner .card .card-header h3 {
+    font-size: 1.4em;
+    line-height: 1;
+}
+.cards .inner .card .card-content {
+    padding: 0em 2.5em;
+    padding-bottom: 2em;
+}
+
+.cards .inner .card p {
+    font-weight: 100;
+    line-height: 1.7;
+    opacity: 0.7;
+}
+
+.call {
+    background: white;
+    margin-bottom: 4em;
+}
+
+.call .inner {
+    display: flex;
+    gap: 4em;
+    padding: 2em 0;
+    padding-bottom: 4em;
+}
+
+.call .inner h3 {
+    font-size: 2em;
+}
+
+.call .inner h4 {
+    font-size: 1.5em;
+}
+
+.call .inner .main p {
+    font-weight: 100;
+    line-height: 2.5;
+    opacity: 0.7; 
+    font-size: 1.2em;
+}
+
+.call .inner .main .lastt {
+    padding-bottom: 2.5em;
+}
+
+.call .aside {
+    flex: 0 0 30%;
+}
+
+.call .aside ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 0;
+    padding-bottom: 2em;
+    margin: 2em 0;
+
+}
+
+.call .aside li {
+    flex: 1 1 35%;
+    display: block;
+    overflow: hidden;
+    border-radius: 0.5em;
+}
+
+.columns {
+    display: flex;
+    gap: 2em;
+}
+
+.columns .column {
+    flex: 1 1 25%;
+}
+
+.column a {
+    color: #696969;
+}
+
+.column p {
+    padding-bottom: 0.5em;
+    color: #696969;
+    line-height: 1.6;
+}
+
+footer .inner > p:last-child{
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 6em;
+}
+
+.icons {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    gap: 0.5em;
+
+}
+
+.icons a {
+    display: block;
+    padding: 0.1em;
+    aspect-ratio: 1/1;
+    background-color: #444;
+    color: #f2f2f2;
+    font-size: 1.5em;
+}
+
+.btnctn {
+    color: #f2f2f2;
+    background: #0090c5;
+    padding: 1em 1.5em;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+}
+
+.stuff {
+    list-style: none;
+    padding-left: 0;
+    line-height: 2;
+}
