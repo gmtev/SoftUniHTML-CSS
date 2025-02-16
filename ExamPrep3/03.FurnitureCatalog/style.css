@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i&amp;display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font: 17px/1.5 "PT Sans", sans-serif;
+}
+
+body, input, textarea, button, form {
+    font: inherit
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+h1 {
+    font-size: 2.0em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+.header .upperwrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 15em;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    display: block;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header .site-title a {
+    display: block;
+    width: 7em;
+    height: 4em;
+    background: url('images/logo.png') center no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    text-indent: -100vw;
+
+}
+
+.catalogue {
+    background: #60ACC1;
+}
+
+.site-footer {
+    background: #2D333C;
+    color: #fff;
+    text-align: center;
+}
+
+.site-footer .wrapper {
+    padding: 1em 0
+}
+
+.flexc2, .flexc3 {
+    display: flex;
+    justify-content: center;
+}
+
+.flexc2 > * {
+    flex: 1 1 45%;
+}
+
+.flexc3 > * {
+    flex: 0 0 30%;
+}
+
+body {
+    background-image: url(images/background.jpg);
+    background-position: center -19em;
+    background-size: 1920px auto;
+    background-repeat: no-repeat;
+}
+
+.banner,
+.catalogue header,
+.about {
+    text-align: center;
+}
+
+.banner .wrapper {
+    padding: 6em 0 4em 0;
+}
+
+.banner .wrapper h2 { 
+    padding-bottom: 1rem;
+}
+
+.banner .wrapper .btn {
+    display: inline-block;
+    background: #fff;
+    border-radius: 0.3em;
+    color: #666;
+    margin-top: 2em;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+.catalogue header h3 {
+    font-size: 1.2em;
+}
+
+.catalogue .wrapper {
+    padding: 1em 0 2em 0;
+}
+
+.catalogue header {
+    padding-bottom: 1.5em;
+}
+
+.catalogue .flexc2 {
+    gap: 11em;
+}
+
+.catalogue .flexc3 {
+    gap: 5em;
+}
+
+.catalogue .flexc3 img {
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.4);
+}
+
+.catalogue .flexc2 article {
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+}
+
+.catalogue .flexc2 article h4 {
+    text-align: center;
+    font-size: 1em;
+}
+.catalogue .flexc2 article .mediaa {
+    overflow: hidden;
+    position: relative;
+}
+
+.catalogue .flexc2 article .mediaa img {
+    position: absolute;
+    height: 100%;
+
+}
+
+.catalogue .flexc2 article section {
+    background: #fff;
+    padding: 3em 2em;
+}
+
+.catalogue .flexc2 article > * {
+    flex: 0 0 50%;
+}
+
+.furniture {
+    background: #fff;
+}
+
+.furniture .wrapper {
+    padding: 3em;
+}
+
+.furniture .flexc3 {
+    gap: 2em;
+}
+
+.furniture .flexc3 > * {
+    flex: 1 1 30%;
+    text-align: center;
+}
+
+.furniture .flexc3 img {
+    height: 5em;
+    width: 5em;
+    margin: 0 auto;
+}
+
+.furniture .flexc3 h4 {
+    font-size: 1.2em;
+}
+
+.about .wrapper {
+    padding: 2em 2em;
+    opacity: 0.6;
+}
+
+.about .wrapper header {
+    padding-bottom: 2em;
+}
+
+.about .wrapper header h3 {
+    font-size: 1.2em;
+}
+
+.about .wrapper header p {
+    font-style: italic;
+}
+
+.about .wrapper p {
+    max-width: 100ch;
+    margin: 0 auto;
+}

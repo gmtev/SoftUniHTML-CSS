@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font: 15px/1.5 'Gochi Hand', sans-serif;
+}
+
+body, input, textarea, button, form {
+    font: inherit
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #e0e0e0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.postcard {
+    width: 900px;
+    background: #fff;
+    border-radius: 1em;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper {
+    position: relative;
+    padding: 1.2em 1.2em 1.2em 1.2em;
+}
+
+.upper > img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+
+}
+
+.text {
+    position: absolute;
+    bottom: 40px;
+    background: #f0f0f0;
+    margin-left: 20px;
+    margin-right: 40px;
+    text-align: center;
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid #ccc;
+}
+
+.text h1 {
+    opacity: 0.8;
+    font-size: 1.7rem;
+    margin-bottom: 0.3em;
+}
+
+.text p {
+    opacity: 0.5;
+    font-size: 1.09rem;
+}
+
+.bottom {
+    border-top: 2px solid #e0e0e0;
+    padding: 1.5em 2em;
+    background: #f1f1f1;
+}
+
+.bottom p {
+    line-height: 2;
+    opacity: 0.5;
+    font-size: 1.1rem;
+}
+
+.bottom h2 {
+    margin-bottom: 0.5em;
+    opacity: 0.8;
+}
