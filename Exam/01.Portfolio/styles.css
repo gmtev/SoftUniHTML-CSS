@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font: 14px/1.5 'IBM Plex Mono', sans-serif;
+}
+
+body, input, textarea, button, form {
+  font: inherit;
+}
+
+.container {
+  background: #080808;
+  max-width: 860px;
+  max-height: 460px;
+  height: 100%;
+  width: 100%;
+  color: white;
+  border-radius: 10px;
+  padding-bottom: 1em;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 0;
+}
+
+body {
+  background: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+nav {
+  background: #1B1B1B;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 15px 3em;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  align-items: center;
+  gap: 3em
+}
+nav ul li {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.8rem;
+}
+nav ul li a {
+  text-decoration: none;
+  text-align: center;
+  color: #5F5F5F;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.inner li {
+  list-style: none;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.inner li a {
+  align-items: center;
+  text-align: center;
+}
+
+.inner li a img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  }
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  padding: 0 3em;
+  padding-bottom: 1em;
+}
+
+footer h5 {
+  margin-bottom: 10px;
+  text-align: left;
+  opacity: 0.8;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 20px; 
+  padding: 0;
+}
+
+footer ul li {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #3A3A3A;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+}
+
+footer ul li img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; 
+}
+
+.wrapper {
+  margin-top: 20px;
+}
+
+.wrapper h1 {
+  font-weight: bold;
+}
+
+.wrapper p {
+  margin-top: 2em;
+  opacity: 0.5;
+  font-size: 0.9rem;
+}
+
+.wrapper a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 0.7em 4em;
+  background-color: #3F8E00;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.picture img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 3em;
+}

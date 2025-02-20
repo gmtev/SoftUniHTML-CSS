@@ -1,0 +1,68 @@
+@media (width <= 600px) {
+    .nav-burger-menu {
+        display: block;
+        color: white;
+        font-size: 2.2em;
+        
+    }
+    .nav {
+        padding-top: 0.5em;
+        flex-direction: row-reverse;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .nav-user-btns {
+        width: 100%;
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    .nav-user-btns li button {
+        width: 100%;
+    }
+    .content-info {
+        padding: 20px 30px;
+    }
+    .content-info-welcome {
+        width: initial;
+
+        text-align: center;
+    }
+    .content-info-welcome h2 {
+        font-size: 4rem;
+        text-align: center;
+    }
+    .content-info-welcome p {
+        text-align: center;
+        font-size: 0.9rem;
+    }
+    .content-info-welcome button {
+        text-align: center;
+        width: 80%;
+    }
+
+    .content-info-img {
+        display: none;
+    }
+
+    .content-services {
+        flex-direction: column;
+    }
+    .content-services div {
+        width: initial;
+        padding: 30px 40px;
+    }
+
+    .gallery {
+        flex-direction: column;
+    }
+    .gallery img {
+        background: none;
+        width: 100%;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+}
